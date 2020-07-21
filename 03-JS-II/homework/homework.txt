@@ -1,0 +1,15 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+
+for: for o para es una estructura de repeticion o bucle sirve para repetir una accion un numero
+determinado de veces. Ej: tengo 0 galletas y quiero sacar 10 extrayendo 1 por 1. for(i=0;i>=10;i++)
+
+&&,||,!: AND(&&) 'Y' , OR(||) 'O', NOT(!) 'NO' estos son operadores lógicos, se utilizan comúnmente en las 
+estructuras de control, cuando se cumple la condición da 'true' y cuando no 'false'. En AND su resultado es 
+'true' cuando ambas condiciones se cumplen Ej.: SI mi edad > 18 Y mi altura <= 1.70 realizar una acción.
+En OR el resultado es 'true' cuando al menos una de las dos condiciones se cumple Ej.: SI mi peso > 50 O mi
+cabello == 'castaño' realizar una acción. En NOT se refiere a una negación Ej. SI mi plata NO es igual a 50
+realizar una acción.   
