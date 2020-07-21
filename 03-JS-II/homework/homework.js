@@ -95,17 +95,20 @@ function esPrimo(numero) {
   if (numero == 0 || numero == 1 || numero == 4) {
     return false;
   }
-  for (let i = 0; i < numero/2; i++) {
+  if(numero < 2){
+    return false;
+  }
+  for (let i = 2; i < numero; i++) {
     if (numero % i == 0) {
       return false;
-    }else{
-      return true;
     }
+    return true;
+    
     
   }
 }
   
-}
+
 
 
 
