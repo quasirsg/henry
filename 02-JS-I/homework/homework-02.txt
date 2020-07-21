@@ -1,0 +1,30 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+
+Variables: Mira, imagina un balde con agua ¿listo? Bueno el balde así como tiene agua también puede tener pintura, cemento, estar vació incluso.Esto quiere decir que el
+contenido del balde puede VARIAR, variar significa que no se sujeta a algo fijo, eterno, ¡que puede cambiar!. Cuando no comprendas que es una variable imagina un balde vació
+El cual a conveniencia podes rellenar con distintos materiales o vaciar si lo necesitas.
+
+Strings: Strings o cadena de caracteres. Para empezar te voy a explicar que es un caracter, en lo que nos interesa se refiere a cualquier símbolo,letra o numero que 
+podes escribir y visualizar en un sistema de escritura, ya sea la compu un celular una maquina de escribir eso es un caracter.
+Los Strings se forman cuando introducís uno o mas caracteres (te diré algo curioso, hasta un espacio es un caracter) ej: 'perro' es un caracter, también '1' es un caracter.Te 
+haré una pregunta '1' e incluso los demás números o símbolos ¿siempre son un valor cadena? No siempre lo son, las cadenas se comienzan con '' o "" y lo que valla dentro de dichas 
+comillas conformara la cadena. 
+
+Funciones: las funciones son como maquinas a las que les metes uno o mas valores y te devuelven algo, ya sea un proceso o valor. Los argumentos se refiere a los valores que introducís para que la maquina
+haga el trabajo esperado, lo que devuelve es como un regreso(return) de los argumentos pero en un valor nuevo. Ej: meter una moneda en una maquina expendedora de chicles, la moneda es uno de los (ARGUMENTOS)
+que pasas a la FUNCIÓN que vendría siendo la maquina expendedora y el return o lo que devuelve son los chicles. 
+
+Declaraciones: es como un enunciado matematico en el que se te espesifica que juanito tiene $5 y debe comprar manzanas,cuando cada una vale $1  ej: plataJuanito=5 se parte de ese valor para seguir con el ejercicio
+if traducido del ingles significa SI, en lo que nos interesa se utiliza para preguntarnos el resultado a un escenario posible para determinar que accion tomar con dos determinantes SI... SiNo
+ej:  Si la plata de juanito es igual o mayor que $5 juanito comprara 5 manzanas y Si no comprara las que le alcanzen 
+
+Valores booleanos: son valores llamados logicos tambien se le conoce como  bandera por que asi como la bandera tiene dos caras, el valor booleano tiene dos estados 'verdadero' o 'true' en ingles-
+-y 'falso' o 'false' en ingles. Se utiliza para saber si ciertas situaciones dan el resultado que esperamos o estan bien planteadas ej: SI tengo 3 lapices el valor booleano sera
+'true' pero SiNo los tengo el valor sera 'false'
