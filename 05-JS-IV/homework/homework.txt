@@ -1,0 +1,55 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+*Objetos: Un objeto es un ente abstraído de la realidad plasmado en un programa informático,
+dicho objeto tiene un estado y comportamiento.ej: un auto tiene dos posibles estados 
+apagado o encendido, y distintos comportamientos o tareas que puede realizar.
+
+*Propiedades: Se refiere a las propiedades o atributos de un objeto y son características
+propias de dicho objeto. 
+Siguiendo el ejemplo de un auto este como atributos podría ser la marca, el modelo,
+numero de serie,etc.
+
+*Métodos: Son las acciones o tereas que puede realizar un objeto, comunmente dichas tareas
+o instrucciones afectan y reescriben las propiedades previamente definidas del objeto encuestion
+ej: encender el auto, acelerar, detenerse.
+
+*Bucle forin: es una estructura de repeticion utilizada para recorrer los elementos de un objeto
+y su estructura es la siguiente :
+
+var objetos = {a: 1, b: 2, c: 3};
+
+for (const objeto in objetos) {
+  console.log(objeto);
+}
+
+*Notacion de puntos vs notacion de corchetes: 
+
+-Notacion de puntos: 
+    *Es mas legible que la notacion de corchetes
+    *Ocupa menos espacio que la notacion de corchetes
+    *Es mucho mas rapido el acceso a las variables que
+    la notacion de corchetes
+se estrucutra de la siguiente manera
+
+var object = {
+    property = 'whatever
+};
+console.log(object.property) :
+
+-Notacion de corchetes: 
+    *No da error si una variable tiene caracteres espe-
+    -ciales ej: font-size
+    *Puede tomar una variable e ir intercambiando la pro-
+    piedad o indice al que quiere acceder del objeto
+se estrucutra de la siguiente manera
+
+var object = {
+    font-size = 'whatever
+};
+console.log(object["font-size"]) :
