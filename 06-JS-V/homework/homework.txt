@@ -1,0 +1,12 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+*prototype: A diferencia de los demás lenguajes javascript tiene una herencia basada en objetos los cuales tienen una propiedad privada llamada prototipo que mantiene una
+relación con otro objeto, si un objeto es enlazado a otro pasa a ser su prototipo. Dicho objeto tiene su propio prototipo, y así sucesivamente hasta que se alcanza un
+objeto cuyo prototipo es 'null'.
+
+*_Constructors_: Es un metodo especial que tiene una clase, se usa para establecer las propiedades del objeto o para llamar a los metodos para preparar al objeto para su
+uso.
