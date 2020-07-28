@@ -43,25 +43,7 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: uppercase;
 	margin: 0 0 1rem 0;
 }
-h1{
-	font-size: 30px;
-	color: #273F8A;
-}
-h2{
-	font-size: 20px;
-	color: #428bca;
-}
-h3,h4{
-	margin: 15px;
-}
-h3{
-	border-bottom:2px solid #1e252d;
-	width: 80%;
-	margin-top: 35px;
-}
-h4{
-	color: #999999;
-}
+
 p{
 	margin:0;
 	padding:0;
@@ -125,5 +107,28 @@ hr{
 
 .art{
 	margin-top: 30px;
+}
+
+.art h1{
+	font-size: 30px;
+	color: #273F8A;
+}
+.art h2{
+	font-size: 20px;
+	color: #428bca;
+}
+.art h3,h4{
+	margin: 15px;
+}
+
+.art h3{
+	border-bottom:2px solid #1e252d;
+	width: 80%;
+	margin-top: 35px;
+	color: black;
+}
+
+.art h4{
+	color: #999999;
 }
 
