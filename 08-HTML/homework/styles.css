@@ -1,0 +1,39 @@
+#centro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: red;
+}
+
+img{
+    width: 400px;
+}
+.image{
+    background-image: url("spec.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    padding: 50px;
+}
+
+#thirdDiv{
+    background-color: #0d1418;
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: 2px solid #b2b2b2;
+    align-items: center;
+    justify-content: center;
+}
+
+
