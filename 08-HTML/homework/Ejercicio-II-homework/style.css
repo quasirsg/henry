@@ -26,6 +26,10 @@ body{
     -webkit-text-size-adjust: none;
     background-color: #1e252d;
 }
+header{
+	border-bottom: 2px solid #273F8A;
+	margin-top: 15px;
+}
 
 ol, ul {
 	list-style: none;
@@ -39,7 +43,25 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: uppercase;
 	margin: 0 0 1rem 0;
 }
-
+h1{
+	font-size: 30px;
+	color: #273F8A;
+}
+h2{
+	font-size: 20px;
+	color: #428bca;
+}
+h3,h4{
+	margin: 15px;
+}
+h3{
+	border-bottom:2px solid #1e252d;
+	width: 80%;
+	margin-top: 35px;
+}
+h4{
+	color: #999999;
+}
 p{
 	margin:0;
 	padding:0;
@@ -73,16 +95,35 @@ hr{
 /*
 * CSS Básico end.
 */
-#centro{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: flex-end;
+#contenedor-principal{
+	display: inline-flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	margin-left: 18%;
 }
 
-#contenedor-principal{
-    background-image: url("img/fondo.png");
-    width: 50%;
-    background-position: center;
+#main{
+    background-image: url("img/fondo-blanco.png");
+	width: 50%;
+	max-height: 1300px;
+	overflow: hidden;
+    padding-left: 10px;
 }
+
+#aside{
+	background-image: url("img/fondo-azul.png");
+	width: 40%;
+	max-height: 1300px;
+	overflow: hidden;
+}
+
+.sec{
+	margin-top: 10px;
+}
+
+.art{
+	margin-top: 30px;
+}
+
