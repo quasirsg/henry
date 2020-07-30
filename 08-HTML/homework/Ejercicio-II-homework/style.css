@@ -86,13 +86,13 @@ hr{
 	align-items: stretch;
 	margin-left: 12%;
 	height: 1300px;
-	max-height: 1800px;
+
 }
 #main{
     background-image: url("img/fondo-blanco.png");
 	width: 50%;
 	height: 1300px;
-	max-height: 1800px;
+
 	overflow: hidden;
     padding-left: 10px;
 }
