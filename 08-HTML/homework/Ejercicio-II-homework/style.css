@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 p{
+	font-family: sans-serif;
 	margin:0;
 	padding:0;
 	line-height: 24px;
@@ -83,13 +84,15 @@ hr{
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	align-items: stretch;
-	margin-left: 18%;
+	margin-left: 12%;
+	height: 1300px;
+	max-height: 1800px;
 }
-
 #main{
     background-image: url("img/fondo-blanco.png");
 	width: 50%;
-	max-height: 1300px;
+	height: 1300px;
+	max-height: 1800px;
 	overflow: hidden;
     padding-left: 10px;
 }
@@ -107,9 +110,10 @@ hr{
 
 .art{
 	margin-top: 30px;
+	color: black;
 }
 
-.art h1{
+h1{
 	font-size: 30px;
 	color: #273F8A;
 }
@@ -130,5 +134,45 @@ hr{
 
 .art h4{
 	color: #999999;
+}
+.art p{
+	font-size: 20px;
+	width: 90%;
+	margin: 15px;
+}
+.p p{
+	font-size: 18px;
+	margin-left: 38px;
+}
+
+#aside aside{
+	margin-top: 25px;
+	margin-left: 20%;
+	color: black;
+}
+#aside #especial{
+	font-family: ArialBlack;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-bottom:2px solid black;
+	width: 90%;
+}
+#aside #div-aside{
+	margin-top: 15px;
+}
+#aside .skills{
+	margin-left: 2%;
+}
+#aside img{
+	width: 20px;
+	height: 20px;
+}
+
+#aside .perfil{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-left: 7%;
 }
 
