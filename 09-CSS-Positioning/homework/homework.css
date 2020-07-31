@@ -37,8 +37,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     position: fixed;
     top: 0;
     left: 0;
-    width: 500px;
-    height: 120px;
+    
 }
 
 
@@ -47,11 +46,42 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 
 #ejercicioCinco{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Ejercicio 6. */
+/* Acá va tu código */
+
+#ejercicioCinco {
+    
+    flex-wrap: wrap-reverse;
+}
+
+#ejercicioSiete{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#elementoUno{
+    align-self: flex-start;
+   
+  
+}
+#elementoDos{
+    align-self: center;
+    
+}
+#elementoTres{
+    align-self: flex-start;
+}
+#elementoCuatro{
+    flex-basis: auto;
+    align-self: flex-start;
+}
